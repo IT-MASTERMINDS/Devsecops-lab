@@ -2,7 +2,6 @@
 
  Here's a `README.md` file that provides instructions for Linux, Windows, and Mac users on how to set up a Docker environment using `docker-getev-id.sh` and `docker-compose`.
 
-```
 
 # Docker Environment Setup
 
@@ -18,9 +17,9 @@ Follow the instructions below based on your operating system.
      
    ```
 
-```
+
   2. Run the `docker-getev-id.sh` script to get the Docker group ID.    This step is necessary for configuring Docker Compose correctly. 
-```
+
    ```
     ./docker-getev-id.sh
    ```
@@ -32,10 +31,10 @@ Follow the instructions below based on your operating system.
    ```
      docker-compose up -d
    ```
-
 5. Your Docker environment should now be up and running.
+   
 
-## For Windows and Mac Users
+### For Windows and Mac Users
 
 1. Clone this repository to your local machine using Git.
 
@@ -68,4 +67,3 @@ Follow the instructions below based on your operating system.
 - Make sure to customize the `docker-compose.yml` file according to your specific application requirements.
 
 - You can adjust the Docker Compose configuration in the `docker-compose.override.yml` file if needed.
-```
