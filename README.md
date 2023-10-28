@@ -21,6 +21,7 @@ Follow the instructions below based on your operating system.
   2. Run the `docker-getev-id.sh` script to get the Docker group ID.    This step is necessary for configuring Docker Compose correctly. 
 
    ```
+    chmod +x docker-getev-id.sh
     ./docker-getev-id.sh
    ```
 
